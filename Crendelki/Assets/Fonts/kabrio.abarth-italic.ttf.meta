@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 4e45c1f21cd9a834baabc9ed7c12c08d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kabrio Abarth
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 41d924cc1555a5f4486b2de9fae70f6b, type: 3}
+  - {fileID: 12800000, guid: fba101402fba1064ab6502a09a125a7a, type: 3}
+  - {fileID: 12800000, guid: 363f581c1688d544bb254fa5a467f5d5, type: 3}
+  - {fileID: 12800000, guid: 22f38e3e9b1440244ba2b543581a9ebd, type: 3}
+  - {fileID: 12800000, guid: 6dc3b8bdf35b6d74f869f25e1a3510ca, type: 3}
+  - {fileID: 12800000, guid: 3792a85f21c54a74dbf603649d95e99d, type: 3}
+  - {fileID: 12800000, guid: 0889c9a6ca3fbb04dbaa71e311065893, type: 3}
+  - {fileID: 12800000, guid: 048b3f55c3d79124cba6ad5d590d67a4, type: 3}
+  - {fileID: 12800000, guid: dc6aabddd9c970f4d9bed7e18df0d901, type: 3}
+  - {fileID: 12800000, guid: fd0a4ec1ee8445e4e89f8edb0c6e2549, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
