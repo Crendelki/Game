@@ -21,19 +21,19 @@ public class OnClick : MonoBehaviour
             NextButton.SetActive(false);
         }
         else if (count == 1){
-            MainText.text = "He is j-us-t a fri-end!";
+            MainText.text = "Alice: He is j-us-t a fri-end!";
             count++;
         }
         else if (count == 2){
-            MainText.text = "See? She denies everything. It seems to me that she is lying, but I did not create a lie function when created her.";
+            MainText.text = "Ethan: See? She denies everything. It seems to me that she is lying, but I did not create a lie function when created her.";
             count++;
         }
         else if (count == 3){
-            MainText.text = "Th-e \"lie\" fun-cti-on n-ot fou-nd.";
+            MainText.text = "Alice: Th-e \"lie\" fun-cti-on n-ot fou-nd.";
             count++;
         }
         else if (count == 4){
-            MainText.text = "Doctor, so what should we do?";
+            MainText.text = "Ethan: Doctor, so what should we do?";
             TextB.text = "Turn off the lawn mowing function";
             TextB2.text = "Try to find errors in her system";
             Choise.SetActive(true);
@@ -47,7 +47,7 @@ public class OnClick : MonoBehaviour
         if (count == 0){
             Choise.SetActive(false);
             NextButton.SetActive(true);
-            MainText.text = "My wife started going out too often to mow the lawn. One day I saw her flirting with a neighbor. We talked about it, but she...";
+            MainText.text = "Ethan: My wife started going out too often to mow the lawn. One day I saw her flirting with a neighbor. We talked about it, but she...";
             count++;
         }
         else if (count == 4){
