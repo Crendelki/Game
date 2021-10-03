@@ -24,7 +24,7 @@ public class OnClick31 : MonoBehaviour
             count++;
         }
         else if (count == 2){
-            MainText.text = "Ethan: She says it 200 times a day. I already have a headache. Help!";
+            MainText.text = "Ethan: She says it two hundred times a day. I already have a headache. Help!";
             TextB.text = "Everything will get better with time, just wait";
             TextB2.text = "Turn on the vision function and try to trust her more";
             Choise.SetActive(true);
@@ -35,13 +35,11 @@ public class OnClick31 : MonoBehaviour
 
     public void Choisen()
     {
-        if (count == 1){
-            Application.LoadLevel("WinRobot");
-        }
+        Application.LoadLevel("LoseRobot1");
     }
 
     public void Choisen2()
     {
-        Application.LoadLevel("LoseRobot1");
+        Application.LoadLevel("WinRobot");
     }
 }

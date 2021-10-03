@@ -15,22 +15,9 @@ public class Lose1 : MonoBehaviour
 
     void Start(){
         TextB.text = "Why are you alone?";
-    }
+        Choise.SetActive(true);
+        NextButton.SetActive(false);
 
-    public void Next()
-    {
-        if (count == 0){
-            MainText.text = "Alice: I re-all-y lo-ve y-ou!";
-            count++;
-        }
-        else if (count == 1){
-            MainText.text = "Ethan: She says it 200 times a day. I already have a headache. Help!";
-            TextB.text = "Let her continue to communicate with neighbor";
-            TextB2.text = "Buy her a robot dog";
-            Choise.SetActive(true);
-            Choise2.SetActive(true);
-            NextButton.SetActive(false);
-        }
     }
 
     public void Choisen()
@@ -38,11 +25,10 @@ public class Lose1 : MonoBehaviour
         if (count == 0){
             MainText.text = "Ethan: I had to take her apart. She stopped doing the simplest things. I don't need your help anymore. Goodbye!";
             TextB.text = "I'm sorry...";
+            count++;
         }
-    }
-
-    public void Choisen2()
-    {
-        Application.LoadLevel("WinRobot");
+        else if (count == 1){
+            Application.LoadLevel("LOSE");
+        }
     }
 }

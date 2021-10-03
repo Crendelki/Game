@@ -31,13 +31,11 @@ public class OnClick22 : MonoBehaviour
 
     public void Choisen()
     {
-        if (count == 1){
-            Application.LoadLevel("Level32");
-        }
+        Application.LoadLevel("LoseRobot2");
     }
 
     public void Choisen2()
     {
-        Application.LoadLevel("LoseRobot2");
+        Application.LoadLevel("Level32");
     }
 }

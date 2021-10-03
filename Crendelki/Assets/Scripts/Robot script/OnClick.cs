@@ -51,13 +51,13 @@ public class OnClick : MonoBehaviour
             count++;
         }
         else if (count == 4){
-            Application.LoadLevel("Level2.2");
+            Application.LoadLevel("Level2.1");
         }
     }
 
     public void Choisen2()
     {
-        Application.LoadLevel("Level2.1");
+        Application.LoadLevel("Level2.2");
     }
 
 }
