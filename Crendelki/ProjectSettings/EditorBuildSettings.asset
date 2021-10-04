@@ -11,4 +11,28 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: b1480f345f83eb646a8836091c10df50
+  - enabled: 1
+    path: Assets/Scenes/Couple1.unity
+    guid: 79c6aa41957a2fb44b44289a5d88c3e9
+  - enabled: 1
+    path: Assets/Scenes/Couple2.1.unity
+    guid: 06cbecacec2b03f4c954a51309a893a0
+  - enabled: 1
+    path: Assets/Scenes/Couple2.2.unity
+    guid: adbcf866c066f3c4da83b55a3c0167d9
+  - enabled: 1
+    path: Assets/Scenes/Couple3.1.unity
+    guid: 9476e888a09f97948acbbac2c63aab5b
+  - enabled: 1
+    path: Assets/Scenes/Couple3.2.unity
+    guid: 2943dc25905c43d4ab7901bfaaf734db
+  - enabled: 1
+    path: Assets/Scenes/SmithLose.unity
+    guid: e92afa3c55729cb4ea146055f9d7aacf
+  - enabled: 1
+    path: Assets/Scenes/SmithWin.unity
+    guid: ed520f07942938e4eb5a5a070800b07b
+  - enabled: 1
+    path: Assets/Scenes/WIN2.unity
+    guid: 3c8d3471708d85342bf2c406c1389946
   m_configObjects: {}
