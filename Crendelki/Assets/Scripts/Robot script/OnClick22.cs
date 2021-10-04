@@ -36,6 +36,6 @@ public class OnClick22 : MonoBehaviour
 
     public void Choisen2()
     {
-        Application.LoadLevel("Level32");
+        Application.LoadLevel("Level3.2");
     }
 }

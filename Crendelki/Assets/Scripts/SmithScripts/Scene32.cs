@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class OnClick31 : MonoBehaviour
+public class Scene32 : MonoBehaviour
 {
     public GameObject NextButton;
     public Text MainText;
@@ -15,14 +15,16 @@ public class OnClick31 : MonoBehaviour
 
     public void Next()
     {
-        if (count == 0){
-            MainText.text = "Alice: ??? I Lik-e.. Can't se-e hi-m!!";
+        if (count == 0)
+        {
+            MainText.text = "Gloria: God, you are not helping, but only aggravating everything with your advice!";
             count++;
         }
-        else if (count == 1){
-            MainText.text = "Ethan: She stopped understanding me and helping me around the house. Doctor, did I do something wrong?";
-            TextB.text = "Everything will get better with time, just wait";
-            TextB2.text = "Turn on the vision function and try to trust her more";
+        else if (count == 1)
+        {
+            MainText.text = "Eugene: How could I not have known for twenty years that my wife is allergic to garden flowers?";
+            TextB.text = "Keep looking for hobbies";
+            TextB2.text = "Try to cure your allergies";
             Choise.SetActive(true);
             Choise2.SetActive(true);
             NextButton.SetActive(false);
@@ -31,11 +33,11 @@ public class OnClick31 : MonoBehaviour
 
     public void Choisen()
     {
-        Application.LoadLevel("LoseRobot1");
+        Application.LoadLevel("SmithWin");
     }
 
     public void Choisen2()
     {
-        Application.LoadLevel("WinRobot");
+        Application.LoadLevel("SmithLose");
     }
 }

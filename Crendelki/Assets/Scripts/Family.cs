@@ -10,11 +10,11 @@ public class Family : MonoBehaviour
     public Button Back;
 
     public void Family1(){
-        Application.LoadLevel("Level1");
+        Application.LoadLevel("NerdInfo");
     }
 
     public void Family2(){
-        Application.LoadLevel("Couple1");
+        Application.LoadLevel("FifaInfo");
     }
 
     public void BackToMenu(){
