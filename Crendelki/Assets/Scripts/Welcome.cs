@@ -8,6 +8,6 @@ public class Welcome : MonoBehaviour
     public Button StartButton;
 
     public void StartTheGame(){
-        Application.LoadLevel("NerdInfo");
+        Application.LoadLevel("Menu");
     }
 }
