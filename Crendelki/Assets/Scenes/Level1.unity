@@ -1161,8 +1161,6 @@ MonoBehaviour:
   PauseMenuUI: {fileID: 1627763210}
   BackgroundText: {fileID: 1859652460}
   Text: {fileID: 1606211836}
-  Choise: {fileID: 1852225431}
-  Choise2: {fileID: 1948915103}
 --- !u!114 &1491470675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1934,10 +1932,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 847623832}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: ChooseScene
-        m_Mode: 3
+      - m_Target: {fileID: 1491470674}
+        m_TargetAssemblyTypeName: PauseMN, Assembly-CSharp
+        m_MethodName: Menu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

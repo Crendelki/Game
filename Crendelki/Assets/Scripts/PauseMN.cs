@@ -10,8 +10,6 @@ public class PauseMN : MonoBehaviour
     public GameObject PauseMenuUI;
     public GameObject BackgroundText;
     public GameObject Text;
-    public GameObject Choise;
-    public GameObject Choise2;
 
     void Update()
     {
@@ -33,23 +31,23 @@ public class PauseMN : MonoBehaviour
     {
         BackgroundText.SetActive(true);
         Text.SetActive(true);
-        Choise.SetActive(true);
-        Choise2.SetActive(true);
         PauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
 
     }
 
-    void Pause()
+    public void Pause()
     {
         BackgroundText.SetActive(false);
         Text.SetActive(false);
-        Choise.SetActive(false);
-        Choise2.SetActive(false);
         PauseMenuUI.SetActive(true);
         Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+
+    public void Menu(){
+        Application.LoadLevel("Menu");
     }
 
     
