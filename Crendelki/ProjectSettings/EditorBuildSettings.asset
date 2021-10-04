@@ -6,9 +6,48 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
+    path: Assets/Scenes/Greeting.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 090a891b1ce8a6f44bedd4b72ad9c1da
+  - enabled: 1
+    path: Assets/Scenes/Levels.unity
+    guid: 1a36a0ce94569054c9d5c8cca19d0881
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: b1480f345f83eb646a8836091c10df50
+  - enabled: 1
+    path: Assets/Scenes/Level1 1.unity
+    guid: 4e7124d2ddc652d43b86964495207431
+  - enabled: 1
+    path: Assets/Scenes/Level2.1.unity
+    guid: 75254aca4bbcee449953ad75a4718db2
+  - enabled: 1
+    path: Assets/Scenes/Level2.2.unity
+    guid: 16c5923ca73783b429ad2caef04defdf
+  - enabled: 1
+    path: Assets/Scenes/Level3.1.unity
+    guid: 40275d278cf47f140a59172df31f28bf
+  - enabled: 1
+    path: Assets/Scenes/Level3.2.unity
+    guid: 9daffb9229bed674dbbb60bf3097ea5c
+  - enabled: 1
+    path: Assets/Scenes/LOSE.unity
+    guid: a16ad5156bd292347aa1a0bb283e7034
+  - enabled: 1
+    path: Assets/Scenes/LoseRobot1.unity
+    guid: 888ffe601aa03fd4fa041bf936d5edd4
+  - enabled: 1
+    path: Assets/Scenes/LoseRobot2.unity
+    guid: 8618410b720daa5449bf45ec04ab4cca
+  - enabled: 1
+    path: Assets/Scenes/NerdInfo.unity
+    guid: 39eb2e40b9f91a6498ba106bb3bdddf8
+  - enabled: 1
+    path: Assets/Scenes/WIN.unity
+    guid: dcc187101cad48444bab04e3e5b6ba2c
+  - enabled: 1
+    path: Assets/Scenes/WinRobot.unity
+    guid: 144e232df3dcfcd499a1bb3e418844ab
   m_configObjects: {}
