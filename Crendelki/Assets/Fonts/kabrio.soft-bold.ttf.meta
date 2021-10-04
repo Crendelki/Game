@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 0c644bb4a9a89e84ba105ee397c3fd76
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kabrio Soft
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 70d5a7ba899bf544abbdbdf6e4a57262, type: 3}
+  - {fileID: 12800000, guid: 8791dee044b5f6b46ad5f2b9d629ae97, type: 3}
+  - {fileID: 12800000, guid: 52beb626e175c6b499fd7eb0214d1619, type: 3}
+  - {fileID: 12800000, guid: 61b43e2cca1cbf04991c3442262a7d30, type: 3}
+  - {fileID: 12800000, guid: 94897d76b7a2bd84d929a7a6d27bf947, type: 3}
+  - {fileID: 12800000, guid: d1cdfc7a03cc4624f85bd9e718fcdf15, type: 3}
+  - {fileID: 12800000, guid: 993fb8292d54fab47915fb0d1ae12c97, type: 3}
+  - {fileID: 12800000, guid: 57f52732c330412468bed117ad64ee24, type: 3}
+  - {fileID: 12800000, guid: c75b6b13f71a5c440a0a0b6750dd34d1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
